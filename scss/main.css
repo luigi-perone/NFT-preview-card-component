@@ -1,0 +1,100 @@
+.container {
+  height: 100vh;
+  background-color: hsl(217deg, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 15px;
+  width: 300px;
+  height: 540px;
+  padding: 20px;
+}
+.card .main-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+.card p {
+  color: hsl(215deg, 51%, 70%);
+}
+.card h1 {
+  display: flex;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: "Outfit";
+}
+
+hr {
+  color: hsl(215deg, 32%, 27%);
+}
+
+p {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 12px 0px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+.footer img {
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.footer p {
+  font-size: 15px;
+  color: hsl(0deg, 0%, 100%);
+}
+.footer p strong {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.eth {
+  display: flex;
+  align-items: center;
+}
+.eth img {
+  height: 24px;
+  width: 16px;
+  margin-right: 5px;
+}
+.eth p {
+  color: hsl(178deg, 100%, 50%);
+}
+
+.day-left {
+  display: flex;
+  align-items: center;
+}
+.day-left img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+.day-left p {
+  color: hsl(215deg, 51%, 70%);
+}/*# sourceMappingURL=main.css.map */
